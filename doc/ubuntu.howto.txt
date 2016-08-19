@@ -1,0 +1,16 @@
+
+
+. install deveropment tools
+
+  sudo apt-get update
+  sudo apt-get upgrade
+  sudo apt-get install libopencv-dev
+
+. how to write code
+
+  header files are stored in /usr/include/opencv so
+    include path can be like opencv/cv.h and no special compile flag is needed.
+  libs to link is get by `pkg-config --libs opencv`
+
+
+
